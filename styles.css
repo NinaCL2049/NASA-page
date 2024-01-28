@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  border: 1px solid red;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-family: "helvetica";
+  font-size: 500%;
+
+  
+ 
+}
+
+section.top {
+  background-image: url("./ETA.jpg");
+  height: 60%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 46%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.bottom {
+  background-color: green;
+  height: 40%;
+  width: 100%;
+  display: grid;
+
+  
+
+}
